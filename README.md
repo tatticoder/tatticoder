@@ -4,6 +4,7 @@
 **tatticoder/tatticoder** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
+-->
 
 - 🔭 I’m currently working on my startup website which provides website building and hosting services to others.
 - 🌱 I’m currently learning Node Js and R programming.
@@ -13,4 +14,3 @@ Here are some ideas to get you started:
 - 📫 How to reach me: https://sicarius.in
 - 😄 Pronouns: learner, curious, challenging
 - ⚡ Fun fact: some small fishes swim inside jelly fish 
--->
