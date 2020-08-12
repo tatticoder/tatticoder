@@ -15,5 +15,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: learner, curious, challenging
 - ⚡ Fun fact: some small fishes swim inside jelly fish 
 ---
-![tatticoder's github stats](https://github-readme-stats.vercel.app/api?username=tatticoder&count_private=true&show_icons=true)
+![tatticoder's github stats](https://github-readme-stats.vercel.app/api?username=tatticoder&count_private=true&show_icons=true&hide_border=true)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tatticoder&hide=javascript,html)](https://github.com/tatticoder/github-readme-stats)
 
