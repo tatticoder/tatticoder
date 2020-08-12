@@ -17,5 +17,5 @@ Here are some ideas to get you started:
 ---
 ![tatticoder's github stats](https://github-readme-stats.vercel.app/api?username=tatticoder&count_private=true&show_icons=true&hide_border=true)
 <a href="https://sicarius.in">
-  <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=tatticoder&repo=github-readme-stats" />
+  <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=tatticoder" />
 </a>
