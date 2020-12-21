@@ -6,6 +6,7 @@
 - 🤔 I’m looking for help with creating a mail server at my home.
 - 💬 Ask me about my desire to give back to community and save planet
 - 📫 How to reach me: https://sicarius.in
+- 🤠 Learn more about me and what I'm upto [here](https://sicarius.in/about)
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: Some small fishes swim inside jelly fish 
 ---
@@ -13,7 +14,6 @@
 <a href="https://sicarius.in">
   <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tatticoder&hide=dart" />
 </a>
-  ## You are visitor number  <img src="https://profile-counter.glitch.me/tatticoder/count.svg" />
 
 ---
 <img src="https://raw.githubusercontent.com/saadeghi/saadeghi/master/dino.gif" />
