@@ -5,7 +5,7 @@ I am [Naman](https://twitter.com/intent/follow?screen_name=tatticoder), a [Micro
 
 - 🔭 I’m currently working on my startup website which provides website building and hosting services to others.
 - 🌱 I maily use Node Js and Go programming languages.
-- 👯 I am really fascinated by LLMs and looking forward to build my [RLHF model](https://huggingface.co/blog/rlhf).
+- 👯 I am really fascinated by LLMs and looking forward to build my [RLHF model](https://huyenchip.com/2023/05/02/rlhf.html).
 - 🤔 I am also working on a some fun Raspberry Pi projects.
 - 💬 Ask me about why Linux is best.
 - 📫 How to reach me: [naman@नमन.भारत](mailto:naman@xn--l2bar.xn--h2brj9c)
