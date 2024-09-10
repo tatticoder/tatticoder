@@ -7,6 +7,7 @@
   \usepackage[T1]{fontenc}
   \usepackage[default]{lato}
 \fi
+\usepackage{hyperref}
 \definecolor{VividPurple}{HTML}{000000}
 \definecolor{SlateGrey}{HTML}{2E2E2E}
 \definecolor{LightGrey}{HTML}{2E2E2E}
@@ -17,6 +18,12 @@
 \renewcommand{\itemmarker}{{\small\textbullet}}
 \renewcommand{\ratingmarker}{\faCircle}
 \addbibresource{sample.bib}
+\hypersetup{
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=blue,        % color of internal links
+	filecolor=magenta,     % color of file links
+	urlcolor=cyan          % color of external links
+}
 
 \begin{document}
 \name{NAMAN SINGHAL}
@@ -26,12 +33,13 @@
 \personalinfo{%
   % Not all of these are required!
   % You can add your own with \printinfo{symbol}{detail}
-  \email{naman@sicarius.in}
-    \email{naman@xn--l2bar.xn--h2brj9c}
+  \email{\href{mailto:naman@sicarius.in}{naman@sicarius.in}}
+%   \email{naman@xn--l2bar.xn--h2brj9c}
 %   \phone{000-00-0000}
 %  \mailaddress{Address, Street, 00000 County}
   \location{Delhi - India}
-  \homepage{https://xn--l2bar.xn--h2brj9c/author}
+  
+  \homepage{\href{https://xn--l2bar.xn--h2brj9c/author}{Bit Byte Blog}}
   \twitter{@tatticoder}
   \linkedin{https://www.linkedin.com/in/tatticoder/}
 %   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
@@ -51,65 +59,86 @@
 %% \cvsection title in the "main" bar.
 \cvsection[page1sidebar]{Experience}
 
-\cvevent{Research Intern - CyPSi Lab, Institute of Informatics \& Communication}{Natural Language Processing}{Feb 2024 -- Aug 2024}{Delhi, India}
+\cvevent{Cloud Infrastructure Specialist}{Scalemath Ltd.}{Nov 2022 -- Present}{London, UK}
 \begin{itemize}
-\item Research and development of Biomedical Signal Processing in collaboration with IIT Indore.
-\smallskip
-\item Working with team on design, development and integration of signal processing.
-\smallskip
-\item Experience with performance analysis, optimizations and benchmark evaluations.
+	\item Design and implement scalable architectures using AWS services (EC2, VPC, ELB, Auto Scaling, S3)
+	\item Deploy servers daily across major cloud platforms using Docker
+	\item Utilize AWS Glue for extracting insights from marketing campaigns
+	\item Work with GCP, AWS, Docker, Kubernetes, and Terraform for Infrastructure as Code
 \end{itemize}
 
 \divider
 
-\cvevent{Machine Learning}{Coursera}{Oct 2018 - Jan 2019}{Online}
+\cvevent{AI Researcher (Specializing in LLMs)}{\href{https://mail.bycloud.ai}{The AI Timeline}}{May 2024 -- Present}{NY, USA}
 \begin{itemize}
-\item Supervised Learning, worked on SL to train model to recognize the pattern in given data with more efficiently 
-\smallskip
-\item Worked on support vector machines (SVMs, also support vector networks) which is supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis.
+	\item Review and explain latest research papers in AI to 5k+ subscribers weekly
+	\item Research on state-of-the-art topics like DeepSeek, Mixture of Million Experts, Mamba-2
 \end{itemize}
 
-%\divider
+\divider
 
-\cvsection{Achievements}
-\smallskip
+\cvevent{Technical Specialist}{\href{https://console.dev/}{Console Ltd.}}{July 2021 -- Oct 2022}{London, UK}
 \begin{itemize}
-\item District level football player at Rewa under 16 age group.
-\smallskip
-\item Scored 2 nd position in inter-school Badminton Championship.
-\smallskip
-\item Manager at IETE Students Forum (ISF),Jaypee University of Engineering \& Technology,Guna,(M.P.).
+	\item Worked with industry-leading tools for browser testing, server monitoring, and website monitoring
+	\item Performed parallel regression testing using Selenium Grid, Lambdatest, Browserstack
+	\item Conducted manual testing using Polypane
+\end{itemize}
+
+\divider
+
+\cvevent{Research Intern}{\href{https://cps.iic.ac.in/index.php/people/}{CyPSi Lab, Institute of Informatics \& Communication}}{Feb 2024 -- Aug 2024}{Delhi, India}
+\begin{itemize}
+	\item Research and development of Natural Language Processing for low-resource Indic languages
+	\item Implemented image recognition for Indian household objects using state-of-the-art models
+	\item Managing Google Cloud infrastructure for fine-tuning and training Large Language Models
 \end{itemize}
 
 \cvsection{TECHNICAL SKILLS}
-\smallskip
 \begin{itemize}
-\item MATLAB, Xilinx ISE 12.1, MS Office, Proteus, Arduino
-\smallskip
-\item C,C++,Java,Python(Beginner)
-\smallskip
+	\item Cloud \& DevOps: AWS, Google Cloud, Azure, Docker, Kubernetes, Terraform
+	\item Programming: Python, Java, JavaScript, C++, SQL, Bash, HTML/CSS
+	\item Machine Learning: TensorFlow, PyTorch, Scikit-learn
+	\item Tools: Git, CI/CD, Selenium, Apache JMeter, Prometheus, Grafana, DataDog
 \end{itemize}
 
-\cvsection{PERSONAL SKILLS}
-\smallskip
+\cvsection[page2sidebar]{Research Work}
+
+\cvevent{\href{https://ieeexplore.ieee.org/document/9441809}{Empirical Analysis of Artificial Immune System Algorithms for Aging Related Bug Prediction}}{IEEE International Conference on Advanced Computing and Communication Systems}{}{}
 \begin{itemize}
-\item Having Leadership Qualities.
-\smallskip
-\item Ability to work under pressure.
-\smallskip
-\item Comfortable Working Independently.
-\smallskip
-\item Ability to take initiative to solve problems.
+	\item Conducted comprehensive analysis of Artificial Immune System algorithms for software bug prediction
+	\item Published findings in IEEE conference proceedings
+	\item Developed novel approach for predicting aging-related bugs in software systems
 \end{itemize}
 
-\cvsection{Hobbies}
-\smallskip
+\divider
+
+\cvevent{Explainable-AI driven Feature Recommendations for Software Change-Proneness Prediction}{(Under Review)}{}{}
 \begin{itemize}
-\item Playing badminton and video games.
-\smallskip
-\item Listening to Music.
-\smallskip
-\item Exploring Places.
+	\item Developing interpretable framework for bug prediction and detection using SHAP (SHapley Additive exPlanations)
+	\item Applying explainable AI techniques to enhance software quality assessment
+	\item Aim to improve accuracy and interpretability of software change-proneness prediction models
+\end{itemize}
+
+\cvsection{Achievements}
+\begin{itemize}
+	\item Secured \textbf{7th rank across India} in Google Cloud DevJam Challenge (hosted by TechGig)
+	\item Competed for New Delhi at World Skills India for Cloud Computing category
+	\item AWS Certified Solutions Architect – Associate
+	\item Microsoft Certified: Azure Data Scientist Associate
+	\item Google Cloud Skill Badges (10+) including Architecture, Data, ML, and Security
+	\item Master the Mainframe 2020 - Level 3 (IBM)
+	\item Earned perfect grade points in Artificial Intelligence, Data Mining, Data Science, Data Structures, and Theory of Computation
+\end{itemize}
+\cvsection{Special Skills \& Hobbies}
+\begin{itemize}
+	\item Proficient in cloud computing technologies (AWS, Google Cloud, Azure)
+	\item Expert in machine learning and data science techniques
+	\item Strong background in theoretical computer science and algorithms
+	\item Skilled in multiple programming languages (C++, Java, PHP, Python)
+	\item Contributing to open-source projects in AI and cloud computing
+	\item Playing badminton and video games
+	\item Listening to Music and composing original riffs on my electric guitar
+	\item Following stock markets and building trend following bots to trade algorithmically
 \end{itemize}
 
 % \cvevent{Product Engineer}{Google}{23 June 1999 -- 2001}{Palo Alto, CA}
@@ -137,7 +166,7 @@
 
 \clearpage
 
-% \cvsection[page2sidebar]{Publications}
+%\cvsection[page2sidebar]{Education2}
 
 \nocite{*}
 
